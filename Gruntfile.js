@@ -69,4 +69,5 @@
  
   //注册任务
   grunt.registerTask('default', ['concat', 'uglify']);
+  
 }
