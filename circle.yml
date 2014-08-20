@@ -1,0 +1,7 @@
+deployment:
+  production:
+    branch: master
+    commands:
+      - ssh administrator@portal.v4test.com
+      - cd \websites\contact-and-minify-js
+      - git pull
